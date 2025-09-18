@@ -1,0 +1,31 @@
+table th, td { border: 1px solid blue ; }
+
+nav h1{
+    background-color: #add8e6; 
+    font-family: serif; cursive; 
+    padding: 10px; 
+    text-align: center;
+
+}
+
+nav li, a2{
+
+font-family:serif;
+padding: 20px;
+
+
+}
+.Servicios-nav h1 {
+    background-color: #add8e6; 
+    font-family: serif; cursive; 
+    padding: 10px; 
+    text-align: center;
+  }
+
+  .Nosotros-nav h1{
+    background-color: #add8e6; 
+    font-family: serif; cursive; 
+    padding: 10px; 
+    text-align: center;
+    
+  }
