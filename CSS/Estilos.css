@@ -1,20 +1,26 @@
-table th, td { border: 1px solid blue ; }
+body{
 
-nav h1{
-    background-color: #add8e6; 
-    font-family: serif; cursive; 
-    padding: 10px; 
-    text-align: center;
-
+  background: #003566;
 }
 
-nav li, a2{
-
-font-family:serif;
-padding: 20px;
-
-
+table {
+  border-collapse: collapse;
+  margin: 0 auto; 
 }
+
+table th,
+table td { 
+  border: 5px solid white;  
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;      
+  vertical-align: middle;  
+  padding: 10px;           
+}
+
+
+
 .Servicios-nav h1 {
     background-color: #add8e6; 
     font-family: serif; cursive; 
@@ -22,26 +28,188 @@ padding: 20px;
     text-align: center;
   }
 
-  .Nosotros-nav h1{
-    background-color: #add8e6; 
-    font-family: serif; cursive; 
-    padding: 10px; 
-    text-align: center;
+.menu{
 
-  }
+  background-color: #0077b6;
+  text-align: center;
+  display: flex;
+  padding: 20px;
+  font-size: 25px;
+  justify-content: space-around;
+}
 
-    .Contacto-nav h1{
-    background-color: #add8e6; 
-    font-family: serif; cursive; 
-    padding: 10px; 
-    text-align: center;
-    
-  }
+.menu a{
+  color: white;
+  font-family: sans-serif;
+  text-decoration: none;
+}
 
-  .Derecho-penal-nav h1{
-    background-color: #add8e6; 
-    font-family: serif; cursive; 
-    padding: 10px; 
-    text-align: center;
-    
+
+.Logo_titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#003566; 
+}
+
+.Logo_titulo h1{
+  margin: 5px;
+  font-family: Verdana;
+  color: #ffd60a;
+}
+
+.Logo {
+  width: 125px;
+  height: auto;
+  margin:15px;
+  filter: invert(100%) brightness(200%);
+
+}
+
+.Contenido {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s forwards;
+  animation-delay: 0.75s; 
+  text-align: center;
+  font-family: sans-serif;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
+}
+
+.Contenido img{
+
+  transition: transform 0.3s ease;
+}
+
+.Contenido img:hover{
+
+  transform: scale(1.1);
+}
+
+.Contenido h1{
+
+  font-size: 45px;
+  color:white;
+}
+.Contenido h2{
+
+  font-size: 45px;
+  color:white;
+}
+.Contenido h3{
+
+  font-size: 35px;
+  color:white;
+}
+
+.Contenido ul {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.Contenido p{
+
+  color:white;
+  font-size:25px;
+}
+
+.Contenido a{
+
+  text-decoration: none;
+  color: yellow;
+}
+
+.Cosas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:20px;
+  font-size: 25px;
+  justify-content: space-around;
+}
+.Cosas a{
+  color:white;
+  text-decoration: none;
+  font-family:;
+  font-weight: bold;
+
+  float: right;
+  margin: 5px;
+  margin-right:40px;
+  transition: transform 0.4s ease;
+
+}
+
+.Cosas a:hover{
+
+  transform:  scale(1.2);
+}
+
+
+
+.Contacto{
+
+  background-color: #03045e;
+}
+
+.Contacto h2, p{
+
+  color: white;
+  font-family: sans-serif;
+}
+
+
+.Formulario {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: white;
+}
+
+.Formulario h1{
+  color: yellow;
+  margin-left:65px;
+  font-size:35px;
+
+}
+.formulario {
+  background: #a97142;
+  width: 450px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  border-radius: 10px;
+    border: 5px solid #3b2f2f;
+  margin-left:30px;
+}
+
+input {
+  width: 300px;     
+  height: 40px;   
+  font-size: 18px;  
+  padding: 8px;   
+  border-radius: 8px; 
+  border: 2px solid #ccc;
+}
+
+textarea {
+  width: 400px;
+  height: 120px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 8px;
+}
